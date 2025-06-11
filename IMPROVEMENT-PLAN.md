@@ -1,10 +1,10 @@
-# TECSOIL Website Improvement Plan
+# Tecsoil Website Improvement Plan
 
 *Comprehensive analysis and improvement roadmap for tecsoil.ie*
 
 ## Executive Summary
 
-The TECSOIL website has a solid technical foundation but requires significant content and user experience improvements to maximize conversion potential and professional credibility. This plan outlines critical improvements prioritized by impact and implementation effort.
+The Tecsoil website has a solid technical foundation but requires significant content and user experience improvements to maximize conversion potential and professional credibility. This plan outlines critical improvements prioritized by impact and implementation effort.
 
 ## Current State Analysis
 
@@ -235,7 +235,7 @@ The TECSOIL website has a solid technical foundation but requires significant co
 
 This improvement plan addresses the most critical user experience and conversion issues while building a foundation for long-term growth. The technical implementation is already solid, so focusing on content quality, user experience, and conversion optimization will yield the highest return on investment.
 
-The estimated timeline of 2-3 months for full implementation will transform the TECSOIL website from a basic informational site into a powerful lead generation and business development tool.
+The estimated timeline of 2-3 months for full implementation will transform the Tecsoil website from a basic informational site into a powerful lead generation and business development tool.
 
 ---
 

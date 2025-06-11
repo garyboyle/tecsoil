@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the TECSOIL Site Assessments website project. Currently, the project contains only a design mockup (DESIGN-WITHTEXT.jpg) showing the intended layout and content for a site assessment services company based in Ireland.
+This is the Tecsoil Site Assessments website project. Currently, the project contains only a design mockup (DESIGN-WITHTEXT.jpg) showing the intended layout and content for a site assessment services company based in Ireland.
 
 ## Current State
 

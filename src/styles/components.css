@@ -760,6 +760,15 @@
     .iowa-logo span {
         font-size: 8px;
     }
+    
+    /* Mobile phone number styling */
+    .contact-detail a[href^="tel:"] {
+        font-size: 1rem;
+        padding: 10px 20px;
+        width: 100%;
+        justify-content: center;
+        margin: 5px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -770,4 +779,59 @@
     .hero-subtitle {
         font-size: 1.1rem;
     }
+}
+
+/* Phone Number Styling */
+.header-top .phone a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    padding: 2px 4px;
+}
+
+.header-top .phone a:hover {
+    color: var(--primary-green);
+    border-bottom-color: var(--primary-green);
+}
+
+.contact-detail a[href^="tel:"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--primary-blue);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid var(--primary-blue);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color: var(--white);
+}
+
+.contact-detail a[href^="tel:"]:hover {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.contact-detail a[href^="tel:"]:before {
+    content: "📞";
+    font-size: 1.2rem;
+}
+
+footer .footer-info a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid var(--white);
+    transition: all 0.3s ease;
+}
+
+footer .footer-info a:hover {
+    color: var(--primary-green);
+    border-bottom-color: var(--primary-green);
 }

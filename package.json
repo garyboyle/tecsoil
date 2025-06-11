@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "TECSOIL Site Assessments - Professional wastewater treatment and site assessment services",
+  "description": "Tecsoil Site Assessments - Professional wastewater treatment and site assessment services",
   "devDependencies": {
     "eslint": "^9.28.0",
     "prettier": "^3.5.3",

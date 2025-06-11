@@ -5,7 +5,7 @@ import './styles/components.css';
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('TECSOIL Site loaded successfully');
+    console.log('Tecsoil Site loaded successfully');
     
     // Add smooth scrolling for navigation links and hero CTA
     const smoothScrollLinks = document.querySelectorAll('.main-nav a[href^="#"], .hero-cta[href^="#"]');

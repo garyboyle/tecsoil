@@ -1,10 +1,10 @@
-# TECSOIL - Site Assessments
+# Tecsoil - Site Assessments
 
-A professional website for TECSOIL, a site assessment company specializing in on-site wastewater treatment systems in West Donegal, Ireland.
+A professional website for Tecsoil, a site assessment company specializing in on-site wastewater treatment systems in West Donegal, Ireland.
 
-## About TECSOIL
+## About Tecsoil
 
-TECSOIL has been carrying out site assessments since 2001 and is on the select list of approved site assessors for on-site wastewater treatment. We provide professional site suitability assessments in accordance with EPA Code of Practice 2009.
+Tecsoil has been carrying out site assessments since 2001 and is on the select list of approved site assessors for on-site wastewater treatment. We provide professional site suitability assessments in accordance with EPA Code of Practice 2009.
 
 ## Features
 
@@ -83,7 +83,7 @@ The project uses a modular CSS approach with:
 
 ## Services
 
-TECSOIL provides:
+Tecsoil provides:
 
 - Site suitability assessments for on-site wastewater treatment
 - Complimentary initial site consultations
@@ -132,11 +132,11 @@ Compatible with:
 
 ## License
 
-© 2024 TECSOIL. All rights reserved.
+© 2024 Tecsoil. All rights reserved.
 
 ## Contributing
 
-This is a professional business website. For updates or changes, please contact TECSOIL directly.
+This is a professional business website. For updates or changes, please contact Tecsoil directly.
 
 ---
 
