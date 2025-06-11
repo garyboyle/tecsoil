@@ -81,6 +81,39 @@
     line-height: 1.6;
 }
 
+/* Process Section */
+.our-process ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.our-process li {
+    color: var(--light-gray);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.our-process li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-green);
+    font-weight: bold;
+}
+
+.our-process strong {
+    color: var(--primary-blue);
+}
+
+.our-process em {
+    font-size: 12px;
+    color: var(--primary-blue);
+}
+
 /* Testimonials */
 .testimonials {
     display: grid;
