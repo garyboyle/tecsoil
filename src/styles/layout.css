@@ -23,6 +23,10 @@
 .main-nav {
     background-color: var(--dark-gray);
     color: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .main-nav ul {
@@ -117,6 +121,11 @@ footer p {
     .our-process,
     .contact-section {
         padding: 60px 0;
+    }
+    
+    .main-nav {
+        position: static;
+        box-shadow: none;
     }
     
     .main-nav ul {
