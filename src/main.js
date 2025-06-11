@@ -7,9 +7,9 @@ import './styles/components.css';
 document.addEventListener('DOMContentLoaded', () => {
     console.log('TECSOIL Site loaded successfully');
     
-    // Add smooth scrolling for navigation links
-    const navLinks = document.querySelectorAll('.main-nav a[href^="#"]');
-    navLinks.forEach(link => {
+    // Add smooth scrolling for navigation links and hero CTA
+    const smoothScrollLinks = document.querySelectorAll('.main-nav a[href^="#"], .hero-cta[href^="#"]');
+    smoothScrollLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const targetId = link.getAttribute('href').substring(1);
@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (targetElement) {
                 targetElement.scrollIntoView({
-                    behavior: 'smooth'
+                    behavior: 'smooth',
+                    block: 'start'
                 });
             }
         });

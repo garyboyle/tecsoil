@@ -1,0 +1,4 @@
+/* Import modular styles */
+@import './src/styles/base.css';
+@import './src/styles/layout.css';
+@import './src/styles/components.css';
