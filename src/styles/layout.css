@@ -15,7 +15,7 @@
 
 .header-main .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -57,10 +57,9 @@ main {
     padding: 40px 0;
 }
 
-.content-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 40px;
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -85,17 +84,6 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .content-wrapper {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .header-main .container {
-        flex-direction: column;
-        gap: 20px;
-        text-align: center;
-    }
-    
     .main-nav ul {
         flex-direction: column;
     }
