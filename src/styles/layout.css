@@ -54,12 +54,37 @@
 /* Main Content Layout */
 main {
     background-color: var(--white);
-    padding: 40px 0;
 }
 
 .main-content {
     max-width: 800px;
     margin: 0 auto;
+}
+
+/* Section Spacing and Background Alternation */
+.section {
+    padding: 80px 0;
+}
+
+/* Alternating Section Backgrounds */
+.about-section {
+    background-color: #f8f9fa;
+}
+
+.assessment-section {
+    background-color: var(--white);
+}
+
+.accreditation-section {
+    background-color: #f8f9fa;
+}
+
+.our-process {
+    background-color: var(--white);
+}
+
+.contact-section {
+    background-color: #f8f9fa;
 }
 
 /* Footer */
@@ -84,6 +109,16 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Consistent mobile spacing */
+    .home-section,
+    .about-section,
+    .assessment-section,
+    .accreditation-section,
+    .our-process,
+    .contact-section {
+        padding: 60px 0;
+    }
+    
     .main-nav ul {
         flex-direction: column;
     }
