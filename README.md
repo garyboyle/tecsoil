@@ -14,6 +14,94 @@ Tecsoil has been carrying out site assessments since 2001 and is on the select l
 - **Contact Information**: Easy access to phone numbers and location details
 - **Service Details**: Comprehensive explanation of assessment process and requirements
 
+## Architecture
+
+```mermaid
+graph TB
+    subgraph "Frontend Application"
+        A[index.html] --> B[Main Entry Point]
+        B --> C[src/main.js]
+        
+        subgraph "Styles (CSS Modules)"
+            D[styles.css<br/>Import Aggregator]
+            E[src/styles/base.css<br/>Reset & Variables]
+            F[src/styles/layout.css<br/>Structure & Grid]
+            G[src/styles/components.css<br/>UI Components]
+            D --> E
+            D --> F
+            D --> G
+        end
+        
+        C --> D
+        
+        subgraph "Key Components"
+            H[Hero Section<br/>CTA & Value Prop]
+            I[Navigation Bar<br/>Sticky Desktop]
+            J[About Section]
+            K[Services Section]
+            L[Contact Section<br/>Click-to-Call]
+            M[Footer]
+        end
+    end
+    
+    subgraph "Build System"
+        N[Vite Dev Server<br/>HMR & ES Modules]
+        O[Production Build<br/>Optimized Bundle]
+        P[Linting<br/>ESLint]
+        Q[Formatting<br/>Prettier]
+    end
+    
+    subgraph "External Services"
+        R[Google Analytics 4<br/>GA4 Tracking]
+        S[Google Maps<br/>Embedded Map]
+    end
+    
+    A --> H
+    A --> I
+    A --> J
+    A --> K
+    A --> L
+    A --> M
+    
+    C --> N
+    N --> O
+    
+    A --> R
+    L --> S
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#fbb,stroke:#333,stroke-width:2px
+    style N fill:#bfb,stroke:#333,stroke-width:2px
+```
+
+### Tech Stack
+
+- **Frontend Framework**: Vanilla JavaScript with ES6 modules
+- **Build Tool**: Vite 6.3.5 for fast development and optimized production builds
+- **Styling**: Modular CSS with custom properties for theming
+- **Analytics**: Google Analytics 4 (GA4) integration
+- **Development Tools**: ESLint for code quality, Prettier for formatting
+
+### Project Structure
+
+```
+tecsoil-site/
+├── index.html              # Main HTML file
+├── styles.css              # CSS import aggregator
+├── src/
+│   ├── main.js            # JavaScript entry point
+│   ├── styles/
+│   │   ├── base.css       # CSS reset, variables, typography
+│   │   ├── layout.css     # Page structure, grid, responsive
+│   │   └── components.css # Component-specific styles
+│   ├── assets/            # Images, fonts (future)
+│   └── components/        # Reusable components (future)
+├── package.json           # Project dependencies
+├── vite.config.js         # Vite configuration
+└── docs/                  # Documentation files
+```
+
 ## Development
 
 ### Prerequisites
