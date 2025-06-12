@@ -1,0 +1,8 @@
+# Robots.txt for tecsoil.ie
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+# Sitemap location
+Sitemap: https://tecsoil.ie/sitemap.xml
