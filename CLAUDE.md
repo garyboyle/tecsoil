@@ -2,17 +2,25 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Important Rules
+
+### Sitemap Updates
+**IMPORTANT**: Whenever you make changes to the website content (HTML, text, structure, etc.), you MUST update the `<lastmod>` date in `/sitemap.xml` to today's date in YYYY-MM-DD format. This ensures search engines are notified of content updates.
+
 ## Project Overview
 
-This is the Tecsoil Site Assessments website project. Currently, the project contains only a design mockup (DESIGN-WITHTEXT.jpg) showing the intended layout and content for a site assessment services company based in Ireland.
+This is the Tecsoil Site Assessments website project - a professional site for EPA-certified site assessment services based in Donegal, Ireland.
 
 ## Current State
 
-The project is in initial setup phase with no code implementation yet. The design file shows:
-- Company branding and navigation (HOME, ABOUT US, OUR SERVICES, OUR PRODUCTS, CONTACT)
-- Content about wastewater treatment and site assessments
+The website is live and includes:
+- Hero section with clear value proposition
+- Responsive navigation with mobile hamburger menu
+- Complete SEO implementation (meta tags, Open Graph, schema.org)
+- EPA Code of Practice 2021 compliance information
 - Professional accreditations and certifications
-- Contact information for Donegal, Ireland location
+- Contact information with Eircode (F94 WT20) and Google Maps integration
+- Click-to-call phone numbers
 
 ## Development Setup
 
