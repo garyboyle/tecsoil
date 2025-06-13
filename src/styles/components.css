@@ -72,6 +72,13 @@
     text-align: center;
 }
 
+.site-logo {
+    height: 55px;
+    width: auto;
+    max-width: 300px;
+    margin-bottom: 5px;
+}
+
 .logo-section h1 {
     font-size: 48px;
     font-weight: bold;

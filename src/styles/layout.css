@@ -155,6 +155,12 @@ footer p {
         padding: 60px 0;
     }
     
+    /* Mobile logo sizing */
+    .site-logo {
+        height: 42px;
+        max-width: 240px;
+    }
+    
     .main-nav {
         position: relative;
         box-shadow: none;
