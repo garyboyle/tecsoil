@@ -7,8 +7,28 @@ import './styles/components.css';
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Tecsoil Site loaded successfully');
     
+    // Mobile menu toggle functionality
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    if (mobileMenuToggle && navMenu) {
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenuToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+    
     // Add smooth scrolling for navigation links and hero CTA
-    const smoothScrollLinks = document.querySelectorAll('.main-nav a[href^="#"], .hero-cta[href^="#"]');
+    const smoothScrollLinks = document.querySelectorAll('.nav-menu a[href^="#"], .hero-cta[href^="#"]');
     smoothScrollLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
