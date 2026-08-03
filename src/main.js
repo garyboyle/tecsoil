@@ -2,11 +2,15 @@
 import './styles/base.css';
 import './styles/layout.css';
 import './styles/components.css';
+import { initCookieConsent } from './cookie-consent.js';
+import { loadGoogleAnalytics } from './analytics.js';
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Tecsoil Site loaded successfully');
-    
+
+    initCookieConsent({ onAccept: loadGoogleAnalytics });
+
     // Mobile menu toggle functionality
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
